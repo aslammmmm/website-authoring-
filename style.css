@@ -1,0 +1,64 @@
+*{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+h1{
+    text-transform: uppercase;
+    color: pink;
+    background-color: rgba(224, 31, 31, 0.582);
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+h4, h3  {
+    text-transform: uppercase;
+
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: pink;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 32.33%;
+
+}
+
+div > image{
+    width: 90%;
+    height: 100px;
+    
+}
+
+.column > p{
+    padding-right: 20px;
+    
+}
+
+.column > h4{
+    font-size: 14px;
+}
+
+.col{
+    float: left;
+    width: 50%;
+}
+
+.col > p{
+    padding-right: 20px;
+}
